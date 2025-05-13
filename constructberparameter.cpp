@@ -13,3 +13,7 @@ Mahasiswa::Mahasiswa(int nim, string nama){
     cout << "Nama :" << nama << endl;
 }
 
+int main(){
+    Mahasiswa mhs(12345, "Harits");
+    return 0;
+}
